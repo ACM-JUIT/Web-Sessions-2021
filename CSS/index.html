@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learning CSS</title>
+    <style>
+      p {
+        color: red;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        /* background-color: aqua; */
+        border: 2px solid blue;
+        border-radius: 10px;
+      }
+      span {
+        border: 1px solid green;
+      }
+      h1 {
+        margin: 1000px;
+        border: 1px solid grey;
+        padding: 10px;
+      }
+      #i {
+        background-color: red;
+      }
+      #gif1 {
+        width: 200px;
+        height: 200px;
+      }
+      .catbg {
+        background: url(assets/cat.gif);
+        background-repeat: no-repeat;
+      }
+      .greenborder {
+        border: 1px solid green;
+      }
+    </style>
+    <!-- Google fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+ 
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1. inline -->
+    <!-- 2. internal -->
+    <!-- 3. external -->
+    <a href="#gif1">gif</a>
+    <a href="https://google.com">google</a>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+      exercitationem, cupiditate harum alias eaque labore impedit delectus?
+      Sapiente facilis quos molestias voluptatibus repellat.
+    </p>
+    <span>Hello</span>
+ 
+    <h1>Hello with h1</h1>
+ 
+    <p>Hello with p</p>
+ 
+    <div id="gif1" class="catbg greenborder"></div>
+  </body>
+</html>
