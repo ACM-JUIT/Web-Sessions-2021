@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    width: 50vw;
+    height: 30vh;
+    margin: 2vh 0 0 2vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-direction: column;
+}
+
+.flex-items{
+    width: 10vw;
+    height: 10vh;
+    border: 1px solid black;
+}
