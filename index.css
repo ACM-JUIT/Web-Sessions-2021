@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 30px;
+}
+.heading{
+    font-size: 50px;
+    align-self: center;
+}
+.big{
+    height: 150px;
+    width: 150px;
+}
+.medium{
+    height: 100px;
+    width: 100px;
+}
+.small{
+    height: 80px;
+    width: 80px;
+}
+
+.box-text{
+    align-self: center;
+    font-size: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+
+    background-image: url("/images/giphy.gif");
+    background-position: center;
+    background-size: cover;
+    border:10px solid black;
+
+    background-color: black;
+    border-radius: 20px;
+}
+
+.spacebar{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    width: 400px;
+
+    border:10px solid black;
+    background-image: url("/images/giphy\ \(1\).gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    align-self: center;
+
+}
